@@ -1,5 +1,5 @@
 {
-    "name": "vue-d3-node-link",
+    "name": "vue-node-link-diagram",
     "version": "0.0.1",
     "description": "Vue component for d3v4 node link diagram",
     "main": "./lib/index.js",
@@ -11,7 +11,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/yankaifyyy/vue-d3-node-link.git"
+        "url": "git+https://github.com/yankaifyyy/vue-node-link-diagram.git"
     },
     "keywords": [
         "Vuejs",
@@ -26,11 +26,13 @@
     "author": "Windson Yan",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/yankaifyyy/vue-d3-node-link/issues"
+        "url": "https://github.com/yankaifyyy/vue-node-link-diagram/issues"
     },
-    "homepage": "https://github.com/yankaifyyy/vue-d3-node-link#readme",
+    "homepage": "https://github.com/yankaifyyy/vue-node-link-diagram#readme",
     "dependencies": {
-        "d3": "^4.10.2",
+        "d3-drag": "^1.1.1",
+        "d3-selection": "^1.1.0",
+        "d3-zoom": "^1.5.0",
         "tslib": "^1.7.1",
         "vue": "^2.4.3",
         "vue-property-decorator": "^5.3.0"

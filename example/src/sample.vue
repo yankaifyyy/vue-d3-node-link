@@ -13,7 +13,7 @@ const nodes = [
 ];
 
 const links: any[] = [
-    { source: 0, target: 1 },
+    { source: 0, target: 1, color: 'pink' },
     { source: 1, target: 2 },
     { source: 2, target: 3 },
     { source: 0, target: 2 },
