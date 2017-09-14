@@ -1,0 +1,7 @@
+/docs/
+/example/
+/src/
+/tsconfig.json
+/webpack.config.js
+
+.vscode
